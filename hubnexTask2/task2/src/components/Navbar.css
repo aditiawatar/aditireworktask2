@@ -1,0 +1,30 @@
+nav{
+  background-color: #EAEEFE;
+ 
+}
+.nav-item{
+  position: relative;
+  left: 170%;
+}
+
+
+
+@media screen and (max-width:1024px) {
+  .nav-item{
+    position: relative;
+    left: 60%;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  .nav-item{
+   position: relative;
+   left: 10%;
+  }
+ 
+}
+
+@media screen and (max-width:320px){
+
+}

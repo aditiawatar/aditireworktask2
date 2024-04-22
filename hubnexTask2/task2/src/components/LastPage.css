@@ -1,0 +1,67 @@
+ .lastPage{
+    background-color: black;
+    
+    overflow-x: hidden;
+    overflow-y: hidden;
+} 
+
+
+ .social{
+   position: relative;
+   top: 90px;
+   left: 1%;
+ }
+ .lastPara{
+   position: relative;
+   top: 10px;
+   left: 1%;
+   color: rgb(143, 139, 139);
+ }
+ .list{
+   display: flex;
+   position: relative;
+   left: 50%;
+   top: -200px;
+  
+ }
+ .listing{
+   margin-left: 40px;
+   line-height: 3;
+ }
+ .listing h6{
+   padding-left: 25px;
+ }
+ .listing ul{
+   list-style: none;
+   color: gray;
+ }
+
+@media screen and (max-width:1024px) {
+  .list{
+    position: relative;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .list{
+    position: relative;
+    left: 20%;
+    font-size: 12px;
+  }
+  .lastPara{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .lastPage{
+    height: 1200px;
+  }
+  .list{
+    display: inline;
+    position: relative;
+   top: 130px;
+    left: -14%;
+  }
+}

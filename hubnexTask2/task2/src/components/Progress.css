@@ -1,0 +1,45 @@
+.para2{
+    position: relative;
+    left: 0;
+    top: 20px;
+  
+}
+.page3{
+    overflow-y: hidden;
+    background: linear-gradient(#ffffff,#D2DCFF);
+    height: 1300px;
+}
+
+.dia1{
+    position: relative;
+    top: -210%;
+}
+.dia2{
+    position: relative;
+    left: 80%;
+    top: -360%;
+}
+
+@media screen and (max-width:768px){
+    .dia1{
+        width: 150px;
+        position: relative;
+        top: -230%;
+        left: -8%;
+    }
+    .dia2{
+        width: 150px;
+       position: relative;
+       top: -500%;
+       left: 85%;
+    }
+    .container{
+
+        margin-top: 30px;
+        
+    }
+    .information{
+        position: relative;
+        top: -10%;
+    }
+}

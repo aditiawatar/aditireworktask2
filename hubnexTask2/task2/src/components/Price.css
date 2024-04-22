@@ -1,0 +1,127 @@
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.box{
+  box-shadow: 0px 0px 10px rgb(167, 167, 167);
+    width: 300px;
+}
+.box:hover{
+    background-color: #EFF0F6;
+}
+.box1-1{
+    height: 400px;
+    background-color: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    border-radius: 10px;
+
+    
+}
+.box11{
+    margin-top: 200px;
+}
+.box1-1 button{
+background-color: black;
+color: white;
+border-radius: 10px;
+border: none;
+width: 250px;
+margin-left: 20px;
+height: 40px;
+margin-top: 20px;
+}
+.box1-1 button:hover{
+    background-color: #EFF0F6;
+    color: black;
+}
+.num1{
+    margin-left: 30px;
+}
+.box21{
+    background-color: #000000;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+}
+
+.box21:hover{
+    background-color: rgb(197, 196, 196);
+}
+.box21 button{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: 500;
+    
+
+border-radius: 10px;
+border: none;
+width: 250px;
+margin-left: 20px;
+height: 40px;
+margin-top: 20px;
+    
+}
+.box21 button:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.box3{
+    height: 600px;
+}
+
+
+@media screen and (max-width:768px){
+    .box{
+     width: 220px;
+     
+    
+    }
+    .box3{
+      
+       margin-right: 20px;
+    }
+    
+    .box button{
+        width: 140px;
+        font-size: 13px;
+    }
+    .price-img1 {
+        width: 200px;
+       
+    }
+    .num1{
+        margin-right: 40px;
+    }
+    .pro{
+        margin-right: 300px;
+       
+    }
+    .popular{
+        position: relative;
+        top: -20px;
+    }
+
+    .boxes{
+        display: inline;
+    }
+}
+
+@media screen and (max-width:320px){
+    .box{
+        width: 290px;
+        margin-left: 5px;
+       
+    }
+    .box3{
+        margin-top: 80px;
+    }
+   
+}
+
+

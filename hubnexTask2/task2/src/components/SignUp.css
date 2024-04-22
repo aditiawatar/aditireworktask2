@@ -1,0 +1,57 @@
+.sign-up{
+    background:linear-gradient(#ffffff,#D2DCFF);
+    height: 600px;
+    margin-top: -150px;
+
+    
+}
+.celebrate{
+   
+ position: relative;
+ top: 10%;
+ left: 0;
+ font-size: 14px;
+
+}
+
+.star{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
+.ring{
+    position: absolute;
+    left:70%;
+    top: 750%;
+    height: 300px;
+}
+
+@media screen  and (max-width:1024px){
+    .star{
+        position: relative;
+        left: 10px;
+    }
+    .ring{
+        position: relative;
+        left: 65%;
+       top: -280px;
+    }
+}
+
+
+@media screen  and (max-width:768px){
+    .star{
+       position: relative;
+       left: -20%;
+    }
+    .ring{
+        width: 250px;
+    position: relative;
+  left: 70%;
+
+       
+    }
+    
+}
